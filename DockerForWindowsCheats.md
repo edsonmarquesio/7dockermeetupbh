@@ -1,6 +1,6 @@
 ﻿Docker Instalation Steps for Windows Production Enviroments
 
-#Firewall Exceptions
+# Firewall Exceptions
 
 All destinatons with 443 port
 
@@ -29,7 +29,7 @@ All destinatons with 443 port
 64.4.54.254
 65.55.44.108
 
-#Antivirus Exceptions
+# Antivirus Exceptions
 
 Program Files\Microsoft Service Fabric
 FabricDataRoot (from cluster configuration)
@@ -53,7 +53,7 @@ Windows Server- %ProgramData%\docker
 Windows 10- %ProgramData%\docker and Autorun.inf
 Mac- $HOME/Library/Containers/com.docker.docker/
 
-#Docker Download
+# Docker Download
 
 Invoke-WebRequest -UseBasicParsing -OutFile docker-18.09.5.zip https://download.docker.com/components/engine/windows-server/18.09/docker-18.09.5.zip
 
